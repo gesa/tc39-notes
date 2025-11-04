@@ -439,7 +439,8 @@ BAN: Fantastic. All right. And next up is the other one, the other normative cha
 
 ### Speaker's Summary of Key Points
 
-This PR allows implementations to take into account potential differences between the short compact form ("5K") and long form ("5 thousand") when determining the correct plural form to use.
+* Proposed change will allow use of differing plural rules for short vs long compact notation when CLDR adds support for them
+* No change to current behaviour of any engine
 
 ### Conclusion
 
@@ -628,7 +629,9 @@ CDA: Thank you. I mean I know there was at least one constraint on this item, bu
 
 ### Speaker's Summary of Key Points
 
-(see final continuation)
+* Functionality involving arithmetic removed from proposal, rounding only performed on way in
+* Support for non-mathematical values in domain of Number added, i.e. -0, ±Infinity, NaN
+* Concerns expressed by WH re: handling of significant digits, particularly for zero values
 
 ### Conclusion
 

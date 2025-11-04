@@ -196,7 +196,11 @@ RCH: All right. Let’s see. `Object.entry` and `Object.fromEntires` is a case w
 
 ### Speaker's Summary of Key Points
 
-* Discussed and proposed solutions for V8 concerns and WH concerns re: sig digits
+* Discussion of changes made to handling of significant digits based on feedback from Day 1 presentation
+* Extensive discussion of name of proposal
+* Extensive discussion on whether or not to include numerical conversion methods
+* Discussion of whether interchange is understood to be a motivation for Amount proposal
+* KG expresses concerns re: motivation of proposal
 
 ### Conclusion
 
@@ -471,6 +475,12 @@ SFC: We don’t have time for that. I think we should have the continuation this
 BAN: Okay.
 
 CDA: I did mention in the point of order but I captured the queue from Monday, and then completely forgot to paste them in here. Some of them may have been covered as NRO pointed out, but I will add them in. Please remind me in case I forget again. I will add them in later this afternoon and if we skip over them because we covered it sufficiently, it’s fine. They’re all from SFC. Shall we break for lunch?
+
+### Speaker's summary of key points
+
+* Functionality involving arithmetic removed from proposal, rounding only performed on way in
+* Support for non-mathematical values in domain of Number added, i.e. -0, ±Infinity, NaN
+* Concerns expressed by WH re: handling of significant digits, particularly for zero values
 
 ## Continuation: Update on proposal-module-global
 

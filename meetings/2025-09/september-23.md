@@ -100,8 +100,8 @@ BAN: Thanks so much.
 
 ### Speaker's Summary of Key Points
 
-* Intl month code supports many calendars defined in CLDR + ICU4C/ICU4X
-* We cannot specify arithmetic for every calendar, but we do want guardrails around implementation to avoid divergence between implementations
+* Description of normative PR to revert the change to handling of leap months from last plenary, returning to rejecting operations that would yield a nonexistent date because of the absence of a leap month. Previous behavior pushed forward to the next non-leap month, proposed behaviour results in a RangeError when using the option {overflow: "reject"}
+* Description of normative PR for Temporal that allows for reference dates in the near future, in order to account for the rare leap month that will appear in the Chinese calendar in 2033.
 
 ### Conclusion
 
