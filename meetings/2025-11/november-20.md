@@ -559,7 +559,7 @@ ACE: Yeah. I agree with you in general. But I do think—this is an exceptional 
 
 CDA: I was going to say before in terms of the public statement aspect: the folks that spoke today can remove those comments from the notes if they don’t want them to be public. I would hope they are able to remain. We are now cutting into lunch. I will read KM’s comments as low priority for us too. I don’t know what to say, I want a public answer. On this proposal, it was leading to negative speculation today in my opinion. There is a celebratory emoji. We are back at the top of the hour.
 
-### ### Speaker's Summary of Key Points
+### Speaker's Summary of Key Points
 
 * Discussion on Decorators took place. People are still excited to use them, browsers are still unwilling to be the first to ship them.
 
@@ -1380,7 +1380,7 @@ ACE: Yes, thank you very much.
 * Interning composites got the most support.
 * Next steps are to continue researching and return to plenary with more information
 
-## Closure
+## Meeting closing
 
 CDA: All right. Thus ends this edition of TC39 plenary. We did 20 hours of content in 16 hours of meeting time. I think that’s a record. That’s very efficient. And I think we had a lot of stage advancements as well. I don’t have the exact count, but… Yes. Please, could all the speakers do your duty, making Aki and ECMA proud by writing the summary and conclusion in the notes. It’s very important and appreciated by the community as well. People always want to know the status of proposals. Sorry? You’ve got 12 to write.
 

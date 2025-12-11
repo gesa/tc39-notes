@@ -238,8 +238,7 @@ PFC: And as usual, we'd like to ask, anything that you can do to help would be g
 ### Speaker's summary of key points
 
 * Integrating test262 into web-features (https://web-platform-dx.github.io/web-features/web-features/) (More info: https://github.com/tc39/test262/issues/4602)
-* We have landed a bunch of tests for async module loading, immutable ArrayBuffer,
-*
+* We have landed a bunch of tests for async module loading, immutable ArrayBuffer, Intl Era Monthcode
 * Added many tests for Temporal edge cases using a snapshot testing technique, more about this in the Temporal item
 * We appreciate help from implementors on checking that open PRs with tests are correct for their implementation of a proposal, and flagging when that is not the case. Help is particularly appreciated on the remaining Explicit Resource Management PRs right now.
 
@@ -587,6 +586,12 @@ DLM: Thank you.
 
 RPR: There was support from Jordan. All right.
 
+\[LATER]
+
+JHD: We forget to do Stage 2 reviewers for captureStacktrace
+
+RPR: Quickly, yeah. For captureStacktrace we are looking for Stage 3 or Stage 2.7 reviewers. One reviewer is Jordan. Thank you. Any other volunteers? And Michael Ficarra. Excellent. Thank you.
+
 ### Speaker's Summary of Key Points
 
 * Presented approach involving an implementation-defined choice of installing data property or using accessors. The accessor version will dynamically add an internal slot. The getter returns the value of this slot, the setter overrides it with a data property.
@@ -668,16 +673,6 @@ FYT: I appreciate it, everybody.
 
 * TG1 agree to merge PR92
 * TG1 agree for Stage 4
-
-JHD: We forget to do Stage 2 reviewers for captureStacktrace
-
-RPR: Quickly, yeah. For captureStacktrace we are looking for Stage 3 or Stage 2.7 reviewers. One reviewer is Jordan. Thank you. Any other volunteers? And Michael Ficarra. Excellent. Thank you.
-
-RPR: Yeah. Michael? Are you available to do iterator sequencing for Stage 4?
-
-MF: If I recall correctly, I requested 12 minutes for this topic.
-
-RPR: We can grant 2 minutes into lunch. All eyes will be on you.
 
 ## Iterator Sequencing for Stage 4
 
